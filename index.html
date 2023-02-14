@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&family=Rubik:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="owner .block">
+        <div class="up">
+          <img src="images/image-jeremy.png" alt="" />
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="down duration">
+          <a data-tab="0" class="dur active" href="#">Daily</a>
+          <a data-tab="1" class="dur" href="#">Weekly</a>
+          <a data-tab="2" class="dur" href="#">Monthly</a>
+        </div>
+      </div>
+      <div class="work others .block">
+        <div class="content">
+          <div class="up">
+            <p>Work</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">5hr</h1>
+            <p class="pre">Previous - 7hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="play others .block">
+        <div class="content">
+          <div class="up">
+            <p>Play</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">1hrs</h1>
+            <p class="pre">Previous - 2hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="study others .block">
+        <div class="content">
+          <div class="up">
+            <p>Study</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">0hrs</h1>
+            <p class="pre">Previous - 1hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="exercise others .block">
+        <div class="content">
+          <div class="up">
+            <p>Exercise</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">1hrs</h1>
+            <p class="pre">Previous - 1hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="social others .block">
+        <div class="content">
+          <div class="up">
+            <p>Social</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">1hrs</h1>
+            <p class="pre">Previous - 3hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="selfCare others .block">
+        <div class="content">
+          <div class="up">
+            <p>Self Care</p>
+            <p>...</p>
+          </div>
+          <div class="down">
+            <h1 class="now">0hrs</h1>
+            <p class="pre">Previous - 1hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/fodlu">Musediq Fadilulahi fodlu_dev</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
